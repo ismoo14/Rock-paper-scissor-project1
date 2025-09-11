@@ -583,3 +583,298 @@ body{
     margin-bottom: 20px;
 }
 }
+
+
+@media (min-width: 971px){
+.hero{
+    margin-top: 30px;
+}
+    .section-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    border: solid whitesmoke 2px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 3px;
+    padding-right: 18px;
+    margin-bottom: 40px;
+    margin-right: 197px;
+    margin-left: 197px;
+}
+.img img{
+    width: 140px;
+}
+.logo-img{
+    margin-top: 12px;
+}
+.score{
+    background-color: rgb(231, 228, 228);
+    border-radius: 7px;
+    padding-left: 27px;
+    padding-bottom: 5px;
+    padding-right: 27px;
+    margin-bottom: 12px;
+    padding-top: 13px;
+    line-height: 1.1;
+}
+.sco{
+    font-size: 17px;
+    color: rgb(156, 154, 154);
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.value{
+    font-size: 55px;
+    color: rgb(63, 63, 63);
+    margin-left: 7px;
+}
+.paper-scissor{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.section-2{
+    text-align: center;
+    display: block;
+}
+
+.paper-scissor img{
+    width: 63px;
+}
+.paper-2{
+    background-color: white;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 31px;
+    padding-bottom: 27px;
+    border-radius: 77px;
+    cursor: pointer;
+}
+.paper-2:hover{
+    box-shadow:  inset 5px 5px 10px  rgb(48, 47, 47);
+    transition: box-shadow 0.3s ease-in-out
+}
+.paper-btn{
+    background-color: olivedrab;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border-radius: 110px;
+    cursor: pointer;
+    border: none;
+}
+.hero-121{
+    opacity: 20%;
+}
+.scissor-2{
+    background-color: white;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 29px;
+    padding-bottom: 26px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.scissor-btn{
+    background-color: rgb(184, 30, 30);
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border-radius: 110px;
+    border: none;
+}
+.scissor-2:hover{
+    box-shadow:  inset 5px 5px 10px  rgb(48, 47, 47);
+    transition: box-shadow 0.3s ease-in-out
+}
+.rock img{
+    width: 69px;
+}
+.rock{
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.rock-2{
+    background-color: white;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 35px;
+    padding-bottom: 29px;
+    border-radius: 70px;
+    border: none;
+}
+.rock-btn{
+    background-color: tomato;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border-radius: 110px;
+    cursor: pointer;
+    justify-content: center;
+    border: none;
+}
+.rock-2:hover{
+    box-shadow:  inset 5px 5px 10px  rgb(48, 47, 47);
+    transition: box-shadow 0.3s ease-in-out
+}
+.section-3{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 440px; 
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+    bottom: 450px;
+    margin-bottom: -455px;
+}
+.section-3{
+    display: none;
+}
+.rule-2{
+    text-align: end;
+    display: fixed;
+}
+.section-222{
+    display: block;
+}
+.rules{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rule{
+    margin-left: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(71, 73, 73);
+}
+.close-btn{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding-right: 7px;
+}
+.rule-btn{
+    font-size: 17px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: solid whitesmoke 2px;
+    color: rgb(185, 182, 182);
+    margin-right: 50px;
+    margin-top: -30px;
+
+}
+.rule-img img{
+    width: 268px;
+}
+.hero-2{
+    display: none;
+}
+.left-right{
+    display: flex;
+    justify-content: centeR;
+    gap: 380px;
+    margin-bottom: 20px;
+}
+.section-121{
+    text-align: center;
+    margin-top: 40px;
+}
+.left-right img{
+    width: 79px;
+}
+.img-1{
+    background-color: white;
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-top: 31px;
+    padding-bottom: 27px;
+    border-radius: 80px;
+    cursor: pointer;
+}
+.left-btn{
+    background-color: plum;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    border-radius: 110px;
+    cursor: pointer;
+    border: none;
+}
+.img-2{
+    background-color: white;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 31px;
+    padding-bottom: 24px;
+    border-radius: 85px;
+    cursor: pointer;
+}
+.right-btn{
+    background-color: teal;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    border-radius: 110px;
+    border: none;
+}
+.section-131{
+    text-align: center;
+    margin-top: -220px;
+}
+.you{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.house{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+    font-size: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.play-btn{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    color: rgb(104, 101, 101);
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+}
+}
