@@ -88,3 +88,107 @@ const value = document.querySelector(".value")
 let count = 0;
 
 const lftbtn = document.querySelector(".left-btn")
+
+paperbtn.addEventListener("click", function(){
+    const item = rev[0];
+    img1.src = item.img;
+
+    const item2 = rev[random()];
+    img2.src = item2.img;
+
+    const paper1 = item.name;
+    const paper2 = item2.name
+
+    if(paper1.length == paper2.length){
+        txt.innerHTML = "DRAW";
+
+    }else if (paper1.length < paper2.length){
+        txt.innerHTML = "YOU LOSE";
+        count--
+        value.textContent = count
+    }else if (paper1.length > paper2.length){
+        txt.innerHTML = "YOU WIN";
+        count++
+        value.textContent = count
+    }
+
+    if(count < 0){
+            value.style.color = "red"
+        }else if(count > 0){
+            value.style.color = "green"
+        }else if(count == 0){
+        value.style.color = "rgb(63, 63, 63);"
+        }
+})
+
+
+scissorbtn.addEventListener("click", function(){
+    const item = rev[1];
+    img1.src = item.img;
+
+    const item2 = rev[random()];
+    img2.src = item2.img;
+
+    const sci2 = item.name;
+    const sci3 = item2.name
+    
+    if(sci2.length == sci3.length){
+        txt.innerHTML = "DRAW";
+    }
+    else if(item.name.length < item2.name2.length ){
+        txt.innerHTML = "YOU LOSE";
+        count--
+        value.textContent = count
+    }else if (item.name.length > item2.name.length){
+        txt.innerHTML = " YOU WIN";
+        count++
+        value.textContent = count
+    }
+    if(count < 0){
+            value.style.color = "red"
+        }else if(count > 0){
+            value.style.color = "green"
+        }else if(count == 0){
+        value.style.color = "rgb(63, 63, 63);"
+        }
+})
+
+
+rockbtn.addEventListener("click", function(){
+    const item = rev[2];
+    img1.src = item.img;
+    const rock1 = item.name;
+
+
+    const item2 = rev[random()];
+    img2.src = item2.img;
+
+    const rck2 = item2.name
+    const rck3 = item2.name2
+
+    if(rock1.length == rck2.length){
+        txt.innerHTML = "DRAW";
+    }else if (rock1.length > rck3.length){
+        txt.innerHTML = "YOU WIN"
+        count++
+        value.textContent = count
+    }else if(item.name.length < item2.name.length){
+        txt.innerHTML = "YOU LOSE "
+        count--
+        value.textContent = count
+    }
+    if(count < 0){
+            value.style.color = "red"
+        }else if(count > 0){
+            value.style.color = "green"
+        }else if(count == 0){
+        value.style.color = "rgb(63, 63, 63);"
+        }
+})
+
+
+
+
+function random(){
+    return Math.floor(Math.random() * rev.length)
+}
