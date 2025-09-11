@@ -290,3 +290,296 @@ body{
     border: none;
 }
 }
+
+
+@media (min-width: 581px){
+.hero{
+    margin-top: 30px;
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: solid whitesmoke 2px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 3px;
+    padding-right: 18px;
+    margin-bottom: 50px;
+    margin-right: 67px;
+    margin-left: 67px;
+}
+.img img{
+    width: 140px;
+}
+.logo-img{
+    margin-top: 12px;
+}
+.score{
+    background-color: rgb(231, 228, 228);
+    border-radius: 7px;
+    padding-left: 27px;
+    padding-bottom: 5px;
+    padding-right: 27px;
+    margin-bottom: 12px;
+    padding-top: 13px;
+    line-height: 1.1;
+}
+.sco{
+    font-size: 17px;
+    color: rgb(156, 154, 154);
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.value{
+    font-size: 55px;
+    color: rgb(63, 63, 63);
+    margin-left: 7px;
+}
+.paper-scissor{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.section-2{
+    text-align: center;
+    display: block;
+}
+.paper-scissor img{
+    width: 63px;
+}
+.paper-2{
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 29px;
+    padding-bottom: 26px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.paper-btn{
+    background-color: rgb(41, 180, 235);
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    border-radius: 110px;
+    cursor: pointer;
+    border: none;
+}
+.paper-2:hover{
+    box-shadow:  inset 5px 5px 10px  rgb(48, 47, 47);
+    transition: box-shadow 0.3s ease-in-out
+}
+.scissor-2{
+    background-color: white;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 29px;
+    padding-bottom: 26px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.scissor-btn{
+    background-color: rgb(247, 154, 74);
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 110px;
+    border: none;
+}
+.scissor-2:hover{
+    box-shadow:  inset 5px 5px 10px  rgb(48, 47, 47);
+    transition: box-shadow 0.3s ease-in-out
+}
+.rock img{
+    width: 69px;
+}
+.rock-2:hover{
+    box-shadow:  inset 5px 5px 10px  rgb(48, 47, 47);
+    transition: box-shadow 0.3s ease-in-out
+}
+.rock{
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.rock-2{
+    background-color: white;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 35px;
+    padding-bottom: 29px;
+    border-radius: 70px;
+    border: none;
+}
+.rock-btn{
+    background-color: slateblue;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border-radius: 110px;
+    cursor: pointer;
+    justify-content: center;
+    border: none;
+}
+.section-3{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 420px; 
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    position: relative;
+    bottom: 480px;
+    margin-bottom: -465px;
+    display: none;
+}
+.rules{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rule{
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.close-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.rule-img img{
+    width: 80%;
+}
+.rule-img{
+    padding-bottom: 63px;
+    text-align: center;
+}
+.rule-btn{
+    font-size: 17px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: solid whitesmoke 2px;
+    color: rgb(185, 182, 182);
+}
+.rule-2{
+    justify-content: end;
+    margin-top: 10px;
+    text-align: center;
+    display: non;
+    margin-bottom: 30px;
+}
+.hero-121{
+    opacity: 20%;
+}
+.hero-2{
+    display: none;
+}
+.left-right{
+    display: flex;
+    justify-content: centeR;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.section-121{
+    text-align: center;
+    margin-top: 40px;
+}
+.img-1{
+    background-color: white;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 28px;
+    padding-bottom: 23px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.left-right img{
+    width: 67px;
+}
+.left-btn{
+    background-color: rgb(142, 190, 45);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    border-radius: 110px;
+    cursor: pointer;
+    border: none;
+}
+.img-2{
+    background-color: white;
+    padding-left: 32px;
+    padding-right: 34px;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.right-btn{
+    background-color: slateblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    border-radius: 110px;
+    border: none;
+}
+.section-131{
+    text-align: center;
+}
+.you{
+    font-size: 21px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.house{
+    font-size: 21px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+    font-size: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.play-btn{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    color: rgb(104, 101, 101);
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+}
+}
